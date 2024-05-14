@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Partidas Rankeadas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de Partidas Rankeadas</h1>
+      <div>
+        <label class="labels" for="vitorias_Heroi">Vitórias do Herói:</label>
+        <input type="text" id="vitorias_Heroi" placeholder="Digite a quantidade de vitórias do herói" />
+      </div>
+      <div>
+        <label class="labels" for="derrotas_Heroi">Derrotas do Herói:</label>
+        <input type="text" id="derrotas_Heroi" placeholder="Digite a quantidade de derrotas do herói" />
+      </div>
+      <button onclick="verificarNivel()" class="button">
+        <span class="text">Verificar Nível</span>
+      </button>
+      <div id="resultado"></div>
+    </div>
+    <footer>
+      <p>
+        Ferramenta criada por
+        <a href="https://github.com/michellemaus">Michelle Maus</a> para o
+        desafio "Calculadora de Partidas Rankeadas" - proposto pelo Felipe Aguiar
+        da DIO
+      </p>
+      <p>Bootcamp: "Santander 2024 - Criando Jogos com Godot"</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
