@@ -1,6 +1,6 @@
 # Desafio Calculadora de Partidas Rankeadas 🏆
 
-O desafio proposto por Felipe Aguiar, o "Felipão" da DIO, é implementar uma calculadora de partidas rankeadas com base em sua experiência (XP). Desenvolvi um código em HTML, CSS e Javascript a fim de proporcionar uma experiência interativa para o usuário.
+O desafio proposto por Felipe Aguiar, o "Felipão" da DIO, é implementar uma calculadora de partidas rankeadas com base em um número de vitórias e derrotas. Desenvolvi um código em HTML, CSS e Javascript a fim de proporcionar uma experiência interativa para o usuário.
 
 ## Objetivo
 
